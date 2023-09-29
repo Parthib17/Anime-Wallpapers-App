@@ -9,3 +9,6 @@
 ![1695965198420_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/dd250820-10be-459f-b937-6b7a2b47430a)
 ![1695965181383_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/0e2b4e84-5443-48e7-a335-a3dd67dbde73)
 ![1695965169748_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/9f38a330-6096-4d1d-bcad-05de89ff7b73)
+![1695965740667_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/d4a0aa67-5587-48f2-a7a7-77a5a405952d)
+![1695965728757_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/45396d6c-8607-456b-97f0-f14a2f0cb74c)
+![1695965751685_100](https://github.com/Parthib17/Anime-Wallpapers-App/assets/89259328/1caccbe3-850f-4fd5-9518-36704987016a)
