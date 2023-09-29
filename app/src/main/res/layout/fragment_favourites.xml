@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FavouritesFragment">
+
+    <ImageView
+        android:id="@+id/favIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_favorite_border_24" />
+
+    <TextView
+        android:id="@+id/woops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favIcon"
+        android:layout_marginTop="2dp"
+        android:text="Whoops!!"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/favtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/woops"
+        android:layout_marginTop="11dp"
+        android:text="Favourite list is still empty"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_centerInParent="true"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

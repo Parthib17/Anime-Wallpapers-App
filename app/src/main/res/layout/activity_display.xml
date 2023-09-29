@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp">
+
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:shadowColor="#000000"
+            android:src="@drawable/hear" />
+
+        <TextView
+            android:id="@+id/fav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fav"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="26dp"
+            android:shadowColor="#000000"
+            android:shadowDx="8.5"
+            android:shadowDy="8.3"
+            android:shadowRadius="2.6"
+            android:text="Favourite"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/apply"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="130dp"
+            android:src="@drawable/apply1" />
+
+        <TextView
+            android:id="@+id/apply_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apply"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="126dp"
+            android:shadowColor="#000000"
+            android:shadowDx="8.5"
+            android:shadowDy="8.3"
+            android:shadowRadius="2.6"
+            android:text="Apply"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="140dp"
+            android:src="@drawable/down1" />
+
+        <TextView
+            android:id="@+id/download_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apply"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="5dp"
+            android:shadowColor="#000000"
+            android:shadowDx="8.5"
+            android:shadowDy="8.3"
+            android:shadowRadius="2.6"
+            android:text="Download"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/forw" />
+
+        <TextView
+            android:id="@+id/share_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fav"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="5dp"
+            android:shadowColor="#000000"
+            android:shadowDx="8.5"
+            android:shadowDy="8.3"
+            android:shadowRadius="2.6"
+            android:text="Share"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
